@@ -4,8 +4,10 @@ class CreateMusicians < ActiveRecord::Migration
       t.string :name
       t.string :location
       t.string :commitment
+      t.string :schedule
       t.string :bio
       t.string :portfolio
+      t.string :jam_location
       t.timestamps
     end
   end
