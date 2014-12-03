@@ -5,7 +5,7 @@ html, body {
 }
 
 .jumbotron {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .background-image {
@@ -20,6 +20,15 @@ html, body {
 body {
     /*background-image: url("../images/living_room_jam.jpg");*/
 
+}
+
+.form-horizontal {
+    position: absolute;
+    width: 80%;
+    right: 0px;
+    background-color: #eee;
+    opacity: 0.95;
+    border-radius: 5px;
 }
 
 /*.jumbotron.text-center {
